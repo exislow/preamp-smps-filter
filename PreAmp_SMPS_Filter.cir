@@ -1,0 +1,13 @@
+.title KiCad schematic
+J1 GND Net-_D1-Pad1_ Screw_Terminal_01x02
+J2 GND Net-_C2-Pad1_ Screw_Terminal_01x02
+R1 Net-_L1-Pad1_ Net-_D1-Pad1_ 0R040 1W
+R2 Net-_C1-Pad1_ Net-_L1-Pad1_ 953R
+R3 Net-_L2-Pad1_ Net-_C1-Pad1_ 0R040 1W
+C1 Net-_C1-Pad1_ GND 470uF 50V
+C2 Net-_C2-Pad1_ GND 470uF 50V
+D1 Net-_D1-Pad1_ GND TP6KE68A
+L1 Net-_L1-Pad1_ Net-_C1-Pad1_ 2.2uH 7.5A 0.1R
+L2 Net-_L2-Pad1_ Net-_C2-Pad1_ 2.2uH 7.5A 0.1R
+R4 Net-_C2-Pad1_ Net-_L2-Pad1_ 953R
+.end
